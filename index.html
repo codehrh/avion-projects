@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <div class="title">
+        Tic Tac Toe
+        <button class="playerTurnSelector" id="turnSelector">Switch Player Turn</button>
+    </div>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <div class="gameButtons">
+            <button id="restartButton">Restart</button>
+        </div>
+        <div class="matchRecordButtons">
+            <button id="prevButton">Prev</button>
+            <button id="nextButton">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
